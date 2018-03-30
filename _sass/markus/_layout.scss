@@ -1,1 +1,22 @@
+form {
+  label {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  input {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  input[type="submit"]{
+    width: auto;
+  }
+}
 
+.wrapper {
+  padding: 2rem;
+}
+
+footer {
+  padding-bottom: 4rem;
+}

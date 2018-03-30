@@ -1,25 +1,34 @@
+/**
+ * Typography
+ */
 
-
-
+body {
+  text-align: center;
+  font-family: sans-serif;
+}
 
 /**
  * Icons
  */
+
+ h1 {
+   margin-bottom: 5rem;
+ }
+
+ .social-media-list {
+   list-style-type: none;
+   padding: 0;
+   li {
+     margin: 0.5rem;
+     display: inline-block;
+   }
+ }
+
 .icon > svg {
   display: inline-block;
   vertical-align: middle;
 
   path {
     fill: grey;
-  }
-}
-
-.social-media-list {
-  .icon {
-    padding-right: 5px;
-  }
-
-  li + li {
-    padding-top: 5px;
   }
 }
